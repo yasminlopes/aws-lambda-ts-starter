@@ -1,0 +1,26 @@
+{
+  "name": "lambda-handler-starter-ts",
+  "version": "1.0.0",
+  "description": "Generic AWS Lambda starter template in TypeScript",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rm -rf build bundle.zip",
+    "build": "npm run clean && tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "start": "node build/index.js",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "author": "yasminlopes",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.9.1",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
