@@ -1,3 +1,7 @@
+<div align="center">
+<img width="300" alt="Logo moderno de Lambda TS Starter" src="https://github.com/user-attachments/assets/9562a155-713f-4d34-8fce-c35bd7b79aff" />
+</div>
+
 # Lightweight AWS Lambda TypeScript starter by yas
 
 ![Node](https://img.shields.io/badge/node-20-green)
@@ -15,25 +19,7 @@ Este repositorio foi simplificado para funcionar como ponto de partida de qualqu
 - Workflow GitHub Actions para deploy automatico na Lambda
 
 ## Estrutura
-
-```txt
-.
-├── .github/
-│   └── workflows/
-│       └── lambda_deploy.yml
-├── src/
-│   ├── index.ts
-│   ├── services/
-│   │   └── example.service.ts
-│   ├── utils/
-│   │   ├── awsErrorHandler.ts
-│   │   └── errorMessages.ts
-│   └── types/
-│       └── lambda.types.ts
-├── package.json
-├── tsconfig.json
-└── README.md
-```
+<img width="1536" height="1024" alt="Estrutura de diretórios AWS Lambda" src="https://github.com/user-attachments/assets/f5ab07fe-2ad1-497d-8c4c-a0f108056269" />
 
 ## Como usar
 
